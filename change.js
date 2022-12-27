@@ -12,7 +12,7 @@ var currentIndex = 0;
 var maxsize = 2**24-1;
 
 function changeColor() {
-    another = "repeating-linear-gradient("
+    another = "linear-gradient("
     deg = "-" + Math.floor(Math.random()*180)+ "deg" + ",";
     temp  = "#" + Math.floor(Math.random() * maxsize).toString(16);
     temps = "#" + Math.floor(Math.random() * maxsize).toString(16);
