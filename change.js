@@ -21,5 +21,5 @@ function changeColor() {
 
 }
 
-setInterval(changeColor, 2000); 
-setInterval(targetLocked,2000);
+setInterval(changeColor, 5); 
+setInterval(targetLocked,5);
